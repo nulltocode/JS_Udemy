@@ -19,3 +19,16 @@ const birthYear = 1992;
 
 const aboutMe = `I'am ${firstName} ${lastName} and I was born in ${birthYear}`;
 console.log(aboutMe);
+
+//--> Type Conversion
+
+const inputYear = '1992';
+// console.log(inputYear);
+console.log(typeof inputYear);
+console.log(Number(inputYear), inputYear); //- The first one is number and the second one is string
+console.log(inputYear + 10);
+// console.log(typeof Number(inputYear));
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
